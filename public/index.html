@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Truth or Dare Live</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Truth or Dare Live</h1>
+      <div id="users"></div>
+      <button id="startGame">Mulai Permainan</button>
+      <div id="gameArea">
+        <p id="currentPlayer"></p>
+        <button id="truth">Truth</button>
+        <button id="dare">Dare</button>
+      </div>
+      <div class="loader" id="loader"></div>
+      <p id="task"></p>
+    </div>
+  </body>
+</html>
